@@ -3,7 +3,19 @@ footer {
 }
 
 .footer__container {
+   position: relative;
    padding: 7.5rem 0 4.8rem 0;
+}
+
+.footer__container::before {
+   content: "";
+   display: inline-block;
+   position: absolute;
+   width: 101px;
+   height: 4px;
+   background: var(--main-color);
+   top: 0;
+   left: 4rem;
 }
 
 .footer__top {
@@ -120,6 +132,12 @@ footer {
 
    .footer__logo {
       margin: 0;
+   }
+
+   .footer__container::before {
+      left: 50%;
+      transform: translateX(-50%);
+
    }
 }
 

@@ -1,8 +1,8 @@
-.home {
+.hero {
    background: var(--main-bg-color)
 }
 
-.home__container {
+.hero__container {
    width: 100%;
    max-width: 708px;
    background: url("../../assets/XX99lg.png");
@@ -12,12 +12,12 @@
    padding-bottom: 15.8rem;
 }
 
-.home__info {
+.hero__info {
    width: 100%;
    max-width: 400px;
 }
 
-.home__subtitle {
+.hero__subtitle {
    color: var(--white-color);
    font-size: 1.4rem;
    font-weight: 400;
@@ -28,7 +28,7 @@
    margin-bottom: 2.4rem;
 }
 
-.home__title {
+.hero__title {
    color: var(--white-color);
    font-size: 5.6rem;
    font-weight: 700;
@@ -38,7 +38,7 @@
    margin-bottom: 2.4rem;
 }
 
-.home__description {
+.hero__description {
    width: 100%;
    max-width: 350px;
    color: var(--white-color);
@@ -46,7 +46,7 @@
    margin-bottom: 4rem;
 }
 
-.home__btn {
+.hero__btn {
    padding: 1.5rem 2.95rem 1.5rem 3.15rem;
    color: var(--white-color);
    letter-spacing: 1px;
@@ -56,35 +56,35 @@
    transition: all 0.3s ease;
 }
 
-.home__btn:hover {
+.hero__btn:hover {
    background: #FBAF85;
 }
 
 @media only screen and (max-width: 768px) {
-   .home__container {
+   .hero__container {
       text-align: center;
       background: url("../../assets/XX99lg2.png");
       background-position: center 85%;
    }
 
-   .home__info {
+   .hero__info {
       margin: 0 auto;
    }
 }
 
 @media only screen and (max-width: 486px) {
-   .home__subtitle {
+   .hero__subtitle {
       margin-bottom: 1.6rem;
    }
 
-   .home__title {
+   .hero__title {
       font-size: 3.6rem;
       font-weight: 700;
       line-height: 4rem;
       letter-spacing: 1.286px;
    }
 
-   .home__description {
+   .hero__description {
       margin-bottom: 2.8rem;
    }
 
@@ -92,7 +92,7 @@
 }
 
 @media only screen and (max-width: 378px) {
-   .home__container {
+   .hero__container {
       background: url('../../assets/XX99lg3.png');
       background-repeat: no-repeat;
       background-position: center;
